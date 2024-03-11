@@ -1,0 +1,58 @@
+.userCard {
+  text-align: center;
+  width: 250px;
+  height: 335px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-top: 20px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.userImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.userName {
+  font-size: large;
+  font-weight: bold;
+}
+
+.userTag {
+  color: gray;
+}
+
+.userLocation {
+  color: gray;
+}
+
+.userStatus {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.statusItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  background-color: darkgray;
+  width: calc(100% / 3);
+  padding: 5px;
+}
+
+.statusTitle {
+  font-size: large;
+}
+
+.statusNumber {
+  font-weight: bold;
+  font-size: large;
+}

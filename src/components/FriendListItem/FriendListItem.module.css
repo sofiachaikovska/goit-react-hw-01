@@ -1,0 +1,12 @@
+.friendName {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.status.online {
+  color: green;
+}
+
+.status.offline {
+  color: red;
+}
